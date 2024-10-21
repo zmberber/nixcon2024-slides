@@ -1,0 +1,58 @@
+\documentclass{beamer}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[nodayofweek]{datetime}
+
+\usetheme{Arguelles}
+
+\definecolor{nixconbg}{RGB}{224,224,224}
+\setbeamercolor{background canvas}{bg=nixconbg}
+\setbeamercolor{structure}{bg=nixconbg,fg=oc-gray-8}
+\setbeamercolor{section in head/foot}{bg=structure.fg,fg=structure.bg}
+\setbeamercolor{inverted text}{fg=oc-gray-8}
+
+\title{NixCon 2024 \quad \includegraphics[height=7cm]{nixcon-2024-logo-inkscape3.png}}
+\subtitle{bUm Berlin}
+\date{\formatdate{25}{10}{2024}}
+
+
+\begin{document}
+
+\frame[plain]{\titlepage}
+
+\begin{frame}
+  \frametitle{A frame with title and subtitle}
+  \framesubtitle{Subtitle here}
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua \par
+  Itemized list:
+  \begin{itemize}
+  \item Lorem ipsum
+  \item Dolor sit amet
+    \begin{itemize}
+    \item Consectetur
+    \item Adipiscing elit
+    \end{itemize}
+  \item Sed do eiusmod
+    \begin{itemize}
+    \item Tempor incididunt
+      \begin{itemize}
+      \item Ut labore et dolore
+      \item Magna aliqua
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{A frame with title only}
+\includegraphics[height=1.5cm]{nixcon-2024-logo-inkscape3.png}
+\end{frame}
+
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: LaTeX
+%%% TeX-master: t
+%%% End:
